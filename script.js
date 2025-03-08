@@ -4,11 +4,11 @@ let password = document.getElementById('password');
 let inputbox = document.querySelector('.input-box');
 
 password.addEventListener('input', () => {
-    if (password.value.length > 0) {
-        message.style.display = "block";
+    if (password.value.length == 0) {
+        message.style.display = "none";
     }
     else {
-        message.style.display = "none";
+        message.style.display = "block";
     }
 
     if (password.value.length <= 4) {
