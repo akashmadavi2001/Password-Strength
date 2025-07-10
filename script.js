@@ -9,7 +9,7 @@ password.addEventListener('input', () => {
     }
     else {
         message.style.display = "block";
-    }
+    };
 
     if (password.value.length <= 4) {
         str.innerHTML = "weak";
@@ -25,5 +25,5 @@ password.addEventListener('input', () => {
         str.innerHTML = "strong";
         inputbox.style.borderColor = "#99ff00";
         message.style.color = "#99ff00";
-    }
-})
+    };
+});
