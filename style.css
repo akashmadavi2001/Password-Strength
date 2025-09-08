@@ -38,23 +38,8 @@ body{
     font-size: 18px;
 }
 
-.input-box button{
-    width: 30px;
-    height: 30px;
-    padding-left: 2px;
-    background-color: #ffffff5a;
-    border-radius: 50%;
-    color: white;
-    font-size: 10px;
-    border: none;
-}
-
 ::placeholder{
     font-size: 18px;
-}
-
-.input-box button:active{
-    transform: scale(0.95);
 }
 
 .input-box p{
@@ -65,3 +50,4 @@ body{
     font-size: 14px;
     display: none;
 }
+
